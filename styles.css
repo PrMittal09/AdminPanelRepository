@@ -1,0 +1,45 @@
+body {
+    background-color: #f7f7f7;
+}
+header {
+    text-align: center
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.card {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 5px rgba(0,0,0,0.1);
+}
+
+.btn {
+    background-color: rgb(80, 80, 212);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: blueviolet;
+}
+
+table {
+    width: 100%;
+    padding: 20px 0;
+}
+table th {
+    background-color: black;
+    color: white;
+}
